@@ -2,7 +2,8 @@ module.exports = {
   apps: [
     {
       'name': 'demo-api',
-      'script': 'npm run dev',
+      'script': 'npm',
+      'args': "run start",
       'node_args': '--experimental-json-modules',
       'exec_mode': 'cluster_mode',
       'instances': '1',
