@@ -1,8 +1,8 @@
 node_modules
 keys
-logs
-migrations
+#logs
+#migrations
 .env
-.env.development
+#.env.development
 package-lock.json
 .vscode
